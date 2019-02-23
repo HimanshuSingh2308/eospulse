@@ -1,0 +1,40 @@
+@import '../../assets/scss/colors';
+@import "../../../node_modules/rfs/scss";
+.navbar{
+  .right-options{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    a{
+      width: max-content;
+      color: $black ;
+      @include rfs(14);
+      text-align: right;
+      text-decoration: none ;
+      @media only screen and (max-width: 600px){
+        width: 100%;
+        text-align: left;
+        margin-bottom:10px; 
+      }
+    }
+  }
+  .brand{
+    width: 10%;
+    @media only screen and (max-width: 600px){
+      width: 50%;
+      padding: 0;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.footer-text{
+  text-align: center;
+  background-color: $bg-footer;
+  opacity: 0.6;
+  @include rfs(12);
+  padding: 10px;
+  @media only screen and (max-width: 600px){
+    font-size: 9px !important;
+  }
+}
