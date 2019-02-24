@@ -11,7 +11,7 @@
       <div class="desc">
           You can install the EOS Pulse extension, on <a [href]="'https://chrome.google.com/webstore/detail/pulse/jlnbnjlakmkkhcmjbloceddnmclmfieo'" target="_blank">Chrome</a> and <a [href]="'https://chrome.google.com/webstore/detail/pulse/jlnbnjlakmkkhcmjbloceddnmclmfieo'" target="_blank">Brave browser.</a> If you’re a developer, you can start developing with EOS Pulse today.
       </div>
-      <div class="button mt-3">
+      <div class="button mt-4">
         <a [href]="'https://chrome.google.com/webstore/detail/pulse/jlnbnjlakmkkhcmjbloceddnmclmfieo'" target="_blank">  <img [src]="'/assets/images/logo.png'" alt="logo" class="width-15"> Add to Browser</a> 
       </div>
     </div>
@@ -21,7 +21,7 @@
     <div class="desc">EOS Pulse is an open source browser extension for the EOS blockchain. It is a gateway to send, receive or stake EOS and its custom tokens. It enables easy integration with customised dApps and supports multiple accounts on various EOS networks.</div>
   </div>
   <div class="third-fold">
-      <youtube-player [videoId]="video_id" (ready)="savePlayer($event)" (change)="onStateChange($event)" *ngIf="showYoutube" width="100%" height="100%"></youtube-player>
+      <youtube-player [videoId]="video_id" (ready)="savePlayer($event)" (change)="onStateChange($event)" *ngIf="showYoutube" width="80%" height="100%"></youtube-player>
     <div class="img" >
       <img [src]="'/assets/images/video-thumbnail.png'" alt="thumbnail" class="width-100">
     </div>
@@ -36,22 +36,22 @@
     </div>
   </div>
   <div class="fourth-fold row">
-    <div class="text col-md-6">
+    <div class="text col-md-6 col-sm-12">
       <div class="title">Integrate dApps</div>
       <div class="specifictions" left=" ">
         <div class="info"> <img [src]="'/assets/images/arrow.png'" alt=""> <label > Push smart contract functions seamlessly</label></div>
         <div class="info"> <img [src]="'/assets/images/arrow.png'" alt=""> <label > Choose when you want to deny access to your data and disallow any dApp integration by enabling Private Mode</label></div>
       </div>
     </div>
-    <div class="img col-md-5 ml-3" left=" ">
+    <div class="img col-md-5 ml-auto" left=" ">
       <img [src]="'/assets/images/dapps.png'" alt="" class="width-100 m-auto">
     </div>
   </div>
   <div class="fifth-fold row">
-    <div class="img col-md-5 ml-3" right="10" *ngIf="!isMobile">
+    <div class="img col-md-5 mr-auto" right="10" *ngIf="!isMobile">
       <img [src]="'/assets/images/manage-account.png'" alt="" class="width-100 m-auto">
     </div>
-    <div class="text col-md-6">
+    <div class="text col-md-6 col-sm-12">
       <div class="title">Manage Multiple Accounts</div>
       <div class="specifictions" right=" ">
         <div class="info"> <img [src]="'/assets/images/arrow.png'" alt=""> <label > Create multiple accounts in one wallet</label></div>
@@ -64,14 +64,14 @@
     </div>
   </div>
   <div class="fourth-fold row">
-      <div class="text col-md-6">
+      <div class="text col-md-6 col-sm-12">
         <div class="title">Transact and Stake Tokens</div>
         <div class="specifictions" left=" ">
           <div class="info"> <img [src]="'/assets/images/arrow.png'" alt=""> <label > Send, receive or stake EOS and EOS based custom tokens</label></div>
           <div class="info"> <img [src]="'/assets/images/arrow.png'" alt=""> <label > Delegate & Undelegate CPU/NET as per your requirement by easily staking/unstaking your EOS tokens </label></div>
         </div>
       </div>
-      <div class="img col-md-5 ml-3" left=" ">
+      <div class="img col-md-5 ml-auto" left=" ">
         <img [src]="'/assets/images/delegate.png'" alt="" class="width-100 m-auto">
       </div>
     </div>
@@ -86,7 +86,7 @@
         <div class="desc">
             To experiment, practice and gain insights into the space we kept Pulse open sourced. You are welcome to contribute to the EOS Pulse source code.
         </div>
-        <div class="button mt-2">
+        <div class="button mt-md-5 mt-sm-3">
           <a [href]="'https://github.com/KoinEx/pulse'" target="_blank">Visit Github Repository</a>
         </div>
       </div>

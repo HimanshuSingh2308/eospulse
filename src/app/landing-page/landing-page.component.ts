@@ -13,7 +13,6 @@ export class LandingPageComponent implements OnInit {
   ladda = false;
   isMobile :Boolean;
   innerWidth : any;
-  parseInt = parseInt;
   constructor() { }
 
   @HostListener('window:resize', ['$event'])

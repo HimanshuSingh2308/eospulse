@@ -6,6 +6,7 @@
     justify-content: flex-end;
     align-items: center;
     a{
+      font-family: Montserrat;
       width: max-content;
       color: $black ;
       @include rfs(14);
