@@ -45,7 +45,7 @@
     .title{
       color:$primary;
       @include rfs(45);
-      font-family: Montserrat;
+      font-family: sans-serif;
       font-weight: bold;
       line-height: 5vmax;
       @media only screen and (max-width: 600px){
@@ -107,7 +107,7 @@
     color: $secondary;
     text-align: center;
     margin-top: 10px;
-    width: 70%;
+    width: 53%;
     margin: auto;
     @media only screen and (max-width: 600px){
       font-size: 17px !important;
