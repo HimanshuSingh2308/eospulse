@@ -10,7 +10,7 @@ import { Component, OnInit ,HostListener } from '@angular/core';
 export class LandingPageComponent implements OnInit {
   video_id ='tQhXd47VVGU';
   showYoutube = false;
-  ladda = false;
+  ladda = true;
   isMobile :Boolean;
   innerWidth : any;
   constructor() { }
