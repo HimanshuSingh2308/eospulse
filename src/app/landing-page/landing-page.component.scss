@@ -101,7 +101,7 @@
     @include rfs(40);
     color: $title;
     font-weight: bold;
-    line-height: 7vmax;
+    line-height: 6vmax;
     text-align: center;
   }
   .desc{
@@ -398,7 +398,7 @@
     .title{
       @include rfs(44);
       font-weight: 900;
-      line-height: 7vmax;
+      line-height: 5vmax;
       font-family: Avenir;
       color: $title;
       
