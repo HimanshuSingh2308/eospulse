@@ -8,7 +8,7 @@ import { Component, OnInit ,HostListener } from '@angular/core';
 
 
 export class LandingPageComponent implements OnInit {
-  video_id ='n70paGIJN4c';
+  video_id ='dt48LhXOYqs';
   showYoutube = false;
   ladda = false;
   isMobile :Boolean;
