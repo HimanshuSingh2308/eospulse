@@ -8,7 +8,7 @@ import { Component, OnInit ,HostListener } from '@angular/core';
 
 
 export class LandingPageComponent implements OnInit {
-  video_id ='tQhXd47VVGU';
+  video_id ='n70paGIJN4c';
   showYoutube = false;
   ladda = false;
   isMobile :Boolean;
@@ -39,7 +39,6 @@ export class LandingPageComponent implements OnInit {
   }
 
   savePlayer(event){
-    console.log("ready ",event);
     this.ladda= false;
     event.playVideo();
   }
@@ -50,7 +49,6 @@ export class LandingPageComponent implements OnInit {
   }
 
   onStateChange(event){
-    console.log("state change ",event);
     if(event.data == 0) {
       event.target.stopVideo();
       this.showYoutube = false;
