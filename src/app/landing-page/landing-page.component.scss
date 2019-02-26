@@ -44,7 +44,7 @@
     background-size: contain;
     .title{
       color:$primary;
-      @include rfs(45);
+      @include rfs(40);
       font-family: Montserrat;
       font-weight: 800;
       line-height: 5vmax;
@@ -66,11 +66,12 @@
       width: max-content;
       background-color: $primary;
       text-align: center;
+      cursor: pointer;
       @media only screen and (max-width: 600px){
         margin: 0 auto !important;
         margin-top: 10px !important;
       }
-      a{
+      div{
         color: $white;
         @include rfs(16);
         line-height: 19px;

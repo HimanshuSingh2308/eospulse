@@ -6,19 +6,19 @@
     </div>
     <div class="text ml-3 col-md-6">
       <div class="title">
-          An open source browser extension for EOS 
+          An open source browser extension for EOS by Koinex
       </div>
       <div class="desc">
-          You can install the EOS Pulse extension, on <a [href]="'https://chrome.google.com/webstore/detail/pulse/jlnbnjlakmkkhcmjbloceddnmclmfieo'" target="_blank">Chrome</a> and <a [href]="'https://chrome.google.com/webstore/detail/pulse/jlnbnjlakmkkhcmjbloceddnmclmfieo'" target="_blank">Brave browser.</a> If you’re a developer, you can <a [href]="'https://github.com/KoinEx/pulse'" target="_blank">start developing </a> with EOS Pulse today.
+          You can install the BETA version of EOS Pulse extension, on <a [href]="'https://chrome.google.com/webstore/detail/pulse/jlnbnjlakmkkhcmjbloceddnmclmfieo'" target="_blank">Chrome</a> and <a [href]="'https://chrome.google.com/webstore/detail/pulse/jlnbnjlakmkkhcmjbloceddnmclmfieo'" target="_blank">Brave browser.</a> If you’re a developer, you can <a [href]="'https://github.com/KoinEx/pulse'" target="_blank">start developing </a> with EOS Pulse today!
       </div>
-      <div class="button mt-4">
-        <a [href]="'https://chrome.google.com/webstore/detail/pulse/jlnbnjlakmkkhcmjbloceddnmclmfieo'" target="_blank">  <img [src]="'/assets/images/logo.png'" alt="logo" class="width-15"> Add to Browser</a> 
+      <div class="button mt-4" (click)="goToUrl('https://chrome.google.com/webstore/detail/pulse/jlnbnjlakmkkhcmjbloceddnmclmfieo')">
+        <div >  <img [src]="'/assets/images/logo.png'" alt="logo" class="width-15"> Add to Browser</div> 
       </div>
     </div>
   </div>
   <div class="second-fold">
     <div class="title">Your gateway to the EOS blockchain</div>
-    <div class="desc">EOS Pulse is an open source browser extension for the EOS blockchain. It is a gateway to send, receive or stake EOS and its custom tokens. It enables easy integration with customised dApps and supports multiple accounts on various EOS networks.</div>
+    <div class="desc">EOS Pulse is an open source browser extension for the EOS blockchain, it is currently in its BETA version. It is a gateway to send, receive or stake EOS and its custom tokens. It enables easy integration with customised dApps and supports multiple accounts on various EOS networks.</div>
   </div>
   <div class="third-fold">
       <youtube-player [videoId]="video_id" (ready)="savePlayer($event)" (change)="onStateChange($event)" *ngIf="showYoutube" width="80%" height="100%"></youtube-player>

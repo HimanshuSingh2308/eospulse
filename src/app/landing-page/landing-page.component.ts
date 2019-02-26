@@ -34,6 +34,10 @@ export class LandingPageComponent implements OnInit {
     }
   }
 
+  goToUrl(url){
+    window.open(url,"_blank");
+  }
+
   savePlayer(event){
     console.log("ready ",event);
     this.ladda= false;
